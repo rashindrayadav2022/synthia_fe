@@ -1,0 +1,60 @@
+.mainContainer {
+  display: flex;
+  .leftSection {
+    background-color: #5a67ba;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .innerLeftSection {
+      color: white;
+      font-size: 16px;
+    }
+  }
+  .rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+    .innerRightSection {
+      width: 60%;
+      .projectName {
+        color: #434f99;
+        font-size: 18px;
+        font-weight: 800;
+      }
+      .inputInfo {
+        font-size: 18px;
+        font-weight: 800;
+      }
+      .inputInfoDescription {
+        font-size: 16px;
+      }
+      .inputText {
+        border: 2px solid #736f6f;
+        font-size: 16px;
+        outline: none;
+        padding: 8px;
+        border-radius: 4px;
+      }
+      .submitButton {
+        background-color: #5a67ba;
+        padding: 10px;
+        font-size: 16px;
+        color: white;
+        border-radius: 4px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .interactionContainer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+      }
+    }
+  }
+}

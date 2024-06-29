@@ -1,0 +1,51 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #eff2ff;
+  row-gap: 20px;
+  color: #777f8c;
+  font-weight: 500;
+  .upperSection {
+    .syncmeeting {
+      display: flex;
+      padding: 12px;
+      border-radius: 10px;
+      column-gap: 10px;
+      background-color: #707fdd;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+
+  .lowerSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    .allmeeting {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      background-color: #707fdd;
+      padding: 12px;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      border-radius: 4px;
+    }
+
+    .today {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      padding: 12px;
+    }
+
+    .days {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      padding: 12px;
+    }
+  }
+}

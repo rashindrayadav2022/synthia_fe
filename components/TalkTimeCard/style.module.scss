@@ -1,0 +1,35 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 20px 10px;
+  border-radius: 8px;
+  color: #3f505e;
+  font-size: 16px;
+  font-weight: 700;
+  .leftSection {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    .speakerLogo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background-color: #faa7e0;
+      color: white;
+    }
+  }
+  .rightSection {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    .progressBar {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

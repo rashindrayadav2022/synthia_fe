@@ -1,0 +1,41 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  row-gap: 10px;
+  color: #5d7284;
+  font-weight: 400;
+  font-size: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  padding: 15px 10px;
+  .upperSection {
+    .timeSection {
+      display: flex;
+      column-gap: 10px;
+      margin-bottom: 10px;
+    }
+    border-bottom: 2px solid #cecccc;
+  }
+
+  .middleSection {
+    color: #5a67ba;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .lowerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .peopleContainer {
+      display: flex;
+      column-gap: 10px;
+    }
+    .meetContainer {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+    }
+  }
+}

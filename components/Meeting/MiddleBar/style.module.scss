@@ -1,0 +1,12 @@
+.mainContainer {
+  .upperSection {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .lowerSection {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    row-gap: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  overflow: scroll;
+  .upperSection {
+    display: flex;
+    column-gap: 30px;
+    .speakerLogo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25px;
+      height: 25px;
+      border-radius: 8px;
+      background-color: #faa7e0;
+      font-size: 16px;
+      font-weight: 800;
+      color: white;
+    }
+    .speakerName {
+      color: #3f505e;
+    }
+  }
+  .lowerSection {
+    .text {
+      display: flex;
+      flex-wrap: wrap;
+      word-wrap: break-word;
+    }
+  }
+}
